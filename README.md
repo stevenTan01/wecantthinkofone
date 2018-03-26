@@ -1,2 +1,2 @@
-# wecantthinkofone
-Maze problem
+### statement of problem
+### recursive abstraction
