@@ -1,4 +1,5 @@
 ### personnel
+Jessie Cheng </br>
 Jabir Chowdhury </br>
 Steven Tan
 
