@@ -19,4 +19,4 @@ what are all the ways?
 ### algorithm
 For every adjacent space that is empty:</br>
 Move there and call the recursive abstraction</br>
-Otherwise, the maze cannot be solved.
+
