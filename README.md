@@ -16,8 +16,9 @@ the recursive abstraction can
 ### base case
 
 ### English or pseudocode description of algorithm
-For every adjacent space that is empty:</br>
-Move there and call the recursive abstraction</br>
+If there is more than 1 spot that the explorer can move, record that spot as a checkpoint. <br>
+Traverse one of the paths <br>
+Invoke the recursive abstraction <br>
 
 ### class(es), with fields and methods
 
