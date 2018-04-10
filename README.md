@@ -5,7 +5,7 @@ Steven Tan
 
 ### statement of problem
 
-What is the Boolean value of the statement “it is possible to get from the starting position to treasure."
+Return the Boolean value of the statement “it is possible to get from the current position to the treasure."
 
 ### recursive abstraction
 When I am asked to  </br>
