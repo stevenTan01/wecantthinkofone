@@ -9,9 +9,9 @@ Return the Boolean value of the statement “it is possible to get from the curr
 
 ### recursive abstraction
 When I am asked to  </br>
-  traverse a maze on a path consisting of n stepping stones  </br>
+  to determine if it is possible to get from the current position to the treasure </br>
 the recursive abstraction can  </br>
-  solve the maze on a path consisting of n-1 stepping stones  </br>
+  determine if it is possible to get from the next position to the treasure </br>
 
 ### base case
 If you're on a treasure, return true  </br>
