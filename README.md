@@ -15,8 +15,8 @@ the recursive abstraction can  </br>
 
 ### base case
 If you're on a treasure, return true  </br>
-If theres a treasure in a direction, go  </br>
-If theres a stone in a direction, go  </br>
+If you're on a wall, return false  </br>
+
 
 ### English or pseudocode description of algorithm
 If there is more than 1 spot that the explorer can move, record that spot as a checkpoint. <br>
