@@ -9,9 +9,9 @@ Return the Boolean value of the statement “it is possible to get from the curr
 
 ### recursive abstraction
 When I am asked to  </br>
-  to determine if it is possible to get from the current position to the treasure </br>
+  to determine the boolean value of the statement "it is possible to get from the current position to the treasure" </br>
 the recursive abstraction can  </br>
-  determine if it is possible to get from the next position to the treasure </br>
+  determine the boolean value of the statement "it is possible to get from the next position to the treasure" </br>
 
 ### base case
 If you're on a treasure, return true  </br>
@@ -19,8 +19,8 @@ If you're on a wall, return false  </br>
 
 
 ### English or pseudocode description of algorithm
-If there is more than 1 spot that the explorer can move, record that spot as a checkpoint. <br>
-Traverse one of the paths <br>
+If the current position of the explorer does not contain the treasure, then record it as a checkpoint. <br>
+Traverse one step towards a direction <br>
 Invoke the recursive abstraction <br>
 
 ### class(es), with fields and methods
