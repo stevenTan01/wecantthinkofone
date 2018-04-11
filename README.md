@@ -24,6 +24,8 @@ Traverse one step towards each of the four cardinal directions <br>
 Invoke the recursive abstraction for each direction <br>
 
 ### class(es), with fields and methods
+MazeSolver</br>
+UserOfMazeSolver</br>
 
 ### version *n* wishlist
 what is the shortest way? </br>
