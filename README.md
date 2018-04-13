@@ -33,6 +33,6 @@ what is the shortest way? </br>
 what are all the ways?
 
 ### known bugs
-Running MazeSolver produces a referencing from static context error
+explorer will keep moving North when attempting to solve the maze, eventually reaching the outside and causing a NullPointerException
 
 
