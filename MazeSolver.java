@@ -12,12 +12,12 @@ public class MazeSolver {
 
   Maze inProgress;
   int[] directions;
-  int[] drops;
+  //int[] drops;
 
   public MazeSolver(Maze maze){
     inProgress = new Maze(maze);
     directions = new int[] { Maze.NORTH, Maze.EAST, Maze.SOUTH, Maze.WEST};
-    drops = new int[] {Maze.TREASURE, Maze.WALL, Maze.STEPPING_STONE};
+    //drops = new int[] {Maze.TREASURE, Maze.WALL, Maze.STEPPING_STONE};
   }
 
 
@@ -34,7 +34,7 @@ public class MazeSolver {
       for(int dir: directions){
         if (inProgress.checkMaybeGo(dir) == false) continue;
         else{
-        inProgress.dropA(drops[1]);
+        inProgress.dropA(Maze.WALL);
         inProgress.go(dir);
 	System.out.println(inProgress); //show what happened
         if (this.solve() == true) return true;
