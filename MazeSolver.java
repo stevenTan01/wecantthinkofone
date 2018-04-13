@@ -1,6 +1,8 @@
 /**
  * MazeSolver Class
  * contains fields inProgress; type Maze
+ *                 directions; integer array
+ *                 drops; integer array
  * contains constructor; MazeSolver(Maze maze); inProgress assigned a reference to new object of Maze
  * contains methods solve(); 
  * @param none
