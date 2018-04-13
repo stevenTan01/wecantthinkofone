@@ -1,5 +1,7 @@
 /**
- * Contains an instance of a maze called test0
+ * Test the MazeSolver class
+ *
+ *Contains an instance of a maze called test0
  *
  * test0 is used to instantiate mazeSolver tester0
  *
