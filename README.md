@@ -21,7 +21,7 @@ If you're on a wall, return false  </br>
 ### English or pseudocode description of algorithm
 If the current position of the explorer does not contain the treasure, then record it as a checkpoint(snapshot) <br>
 Traverse one step towards each of the four cardinal directions <br>
-Invoke the recursive abstraction for each direction <br>
+Invoke the recursive abstraction <br>
 
 ### class(es), with fields and methods
 MazeSolver</br>
@@ -33,6 +33,6 @@ what is the shortest way? </br>
 what are all the ways?
 
 ### known bugs
-explorer will keep moving North when attempting to solve the maze, eventually reaching the outside and causing a NullPointerException
+1. Explorer will keep moving North when attempting to solve the maze, eventually reaching the outside and causing a NullPointerException
 
 
