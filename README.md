@@ -9,7 +9,7 @@ Return the Boolean value of the statement “it is possible to get from the curr
 
 ### recursive abstraction
 When I am asked to  </br>
-  to determine the boolean value of the statement "it is possible to get from the starting position to the treasure" </br>
+  determine the boolean value of the statement "it is possible to get from the starting position to the treasure" </br>
 the recursive abstraction can  </br>
   determine the boolean value of the statement "it is possible to get from the starting position to the treasure" after moving one stepping stone in a cardinal direction</br>
 
