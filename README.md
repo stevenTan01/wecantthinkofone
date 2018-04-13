@@ -33,6 +33,6 @@ what is the shortest way? </br>
 what are all the ways?
 
 ### known bugs
-1. Explorer will keep moving North when attempting to solve the maze, eventually reaching the outside and causing a NullPointerException
+1. NullPointerException was a very annoying error and a new method called checkMaybeGO had to be created in Maze.java in order to bypass the error to a certain extent.
 
 
