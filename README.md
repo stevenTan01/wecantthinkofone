@@ -32,6 +32,6 @@ what is the shortest way? </br>
 what are all the ways?
 
 ### known bugs
-Running MazeSolver produces a referencing from staic context error
+Running MazeSolver produces a referencing from static context error
 
 
