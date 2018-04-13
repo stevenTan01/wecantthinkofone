@@ -10,6 +10,7 @@
     o  a MazeTerminal; or
     o  a stepping stone with a Maze as any of its 4 neighbors
   plus an optional explorer positioned on any element of the Maze.
+  
   A "checkMaybeGo" method is...
     o  checks if "go" in a certain direction will take the explorer 
        out of the maze or not.
