@@ -16,6 +16,7 @@ public class UserOfMazeSolver {
                           , Integer.parseInt( commandLine[1])
                           , Integer.parseInt( commandLine[2])
                           );
+      System.out.println(test0); //print the original maze
       MazeSolver tester0 = new MazeSolver(test0);
       System.out.println(tester0.solve());
 
