@@ -24,7 +24,6 @@ public class MazeSolver {
       for(int dir: directions){
         if (inProgress.checkMaybeGo(dir) == false) continue;
         else{
-        System.out.println("in");
         inProgress.dropA(drops[1]);
         inProgress.go(dir);
         if (this.solve() == true) return true;
