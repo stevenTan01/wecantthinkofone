@@ -1,3 +1,11 @@
+/**
+ * Contains an instance of a maze called test0
+ *
+ * test0 is used to instantiate mazeSolver tester0
+ *
+ * the solve method is called by tester0
+ */
+
 public class UserOfMazeSolver {
 
     public static void main(String[]  commandLine)
