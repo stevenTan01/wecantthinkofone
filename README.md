@@ -33,6 +33,6 @@ what is the shortest way? </br>
 what are all the ways?
 
 ### known bugs
-1. Display of maze solving process prints out multiple occurences of the same status of the maze (ex. prints out the display of the solved maze twice) 
+
 
 
