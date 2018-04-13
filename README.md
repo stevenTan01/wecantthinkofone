@@ -33,6 +33,6 @@ what is the shortest way? </br>
 what are all the ways?
 
 ### known bugs
-1. NullPointerException was a very annoying error and a new method called checkMaybeGO had to be created in Maze.java in order to bypass the error to a certain extent.
+1. Display of maze solving process prints out multiple occurences of the same status of the maze (ex. prints out the display of the solved maze twice) 
 
 
