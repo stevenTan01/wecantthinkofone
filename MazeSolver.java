@@ -36,6 +36,7 @@ public class MazeSolver {
         else{
         inProgress.dropA(drops[1]);
         inProgress.go(dir);
+	System.out.println(inProgress); //show what happened
         if (this.solve() == true) return true;
         inProgress = new Maze(snapshot);
             }
