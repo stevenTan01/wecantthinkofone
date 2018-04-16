@@ -12,13 +12,20 @@ public class UserOfMazeSolver {
 
     public static void main(String[]  commandLine)
     throws java.io.FileNotFoundException {
-      Maze test0 = new Maze( commandLine[0]
+        
+      //create a new object of type Maze called mazeToSolve
+      Maze mazeToSolve = new Maze( commandLine[0]
                           , Integer.parseInt( commandLine[1])
                           , Integer.parseInt( commandLine[2])
                           );
-      System.out.println(test0); //print the original maze
-      MazeSolver tester0 = new MazeSolver(test0);
-      System.out.println(tester0.solve());
+        
+      System.out.println(mazeToSolve); //print the original maze
+        
+      //create a new object of type MazeSolver that will be used to solve mazeToSolve
+      MazeSolver solveThisMaze = new MazeSolver(mazeToSolve);
+      
+      //show results in the process of solving mazeToSolve
+      System.out.println(solveThisMaze.solve());
 
 
     }
