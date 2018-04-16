@@ -36,6 +36,6 @@ what are all the ways?
 Attempting to place the explorer starting outside the maze causes a null pointer exception error
 
 ### v1
-Improved the code in MazeSolver and UserOfMazeSolver by providing comments
+Improved the code in MazeSolver and UserOfMazeSolver by providing comments and renaming some objects
 
 
