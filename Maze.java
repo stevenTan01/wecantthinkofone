@@ -41,12 +41,12 @@ public class Maze {
      */
     public Maze( String sourceFilename
                , int explorerRank, int explorerFile
-               ) throws java.io.FileNotFoundException {
+               )  {
 
         /* Construct the maze array one rank at a time, in case
            we ever allow non-rectangular mazes  */
         maze = new int[ MAX_RANKS][];
-
+        try {
         Scanner sc = new Scanner( new java.io.File( sourceFilename));
         sc.useDelimiter("");  // Whitespaces are data, not delimiters.
 
@@ -74,7 +74,11 @@ public class Maze {
                 maze[ rank][ file] = element;
             }
         }
-
+      }
+      catch(java.io.FileNotFoundException unusedID){
+        maze[0] = new int[]{WALL};
+        rankCount = 1;
+      }
         explorerPosition = new Vector().add( explorerRank, explorerFile);
         // // for debugging: report explorer's location
         // System.out.println( "explorer at " + explorerPosition.rank
